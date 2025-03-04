@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/************ Font ************/
+
+@font-face {
+    font-family: "helvetica";
+    src: url(../font/helvetica/helvetica.ttf);
+}
+
+
+.container{
+    width: 92%;
+    height: 97vh;
+    margin: auto;
+}
+
+.row{
+    margin-top: 3rem;
+}
+
+.col-55{
+    width: 55%;
+}
+
+.col-30{
+    width: 25%;
+}
+
+
+.primary-btn{
+    background-color: #fff;
+    color: #f73b20;
+    height: 4.8rem;
+    align-items: center;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 2.4rem;
+}
+
+
+.secundary-btn{
+    color: #fff;
+    background-color: #ffffff1a;
+    backdrop-filter: blur(2rem);
+    border: 1px solid #ffffff1a;
+    height: 4.8rem;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 2.4rem;
+}
+
+
+/************ header top bot ************/
+
+.video-container {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    z-index: -1; 
+}
+
+.video-container video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Adapte la vidéo pour couvrir tout l'écran sans déformation */
+}
+
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+header a , .nav-bar span{
+    font-family: "helvetica";
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6rem;
+}
+
+.nav-bar span{
+    padding: 0 0.6rem;
+}
+
+.logo a{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.nav-menu{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    top:95%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+
+.nav-menu ul{
+    background-color: #fc4d32;
+    height: 4.8rem;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 10rem;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 1rem;
+
+}
+
+.navmenu a{
+    font-size: 1.4rem;
+}
+
+.scroll{
+    position: absolute;
+    left: 4%;
+    bottom: 3rem;
+}
+
+.scroll a{
+    font-size: 1.2rem;
+    padding: .4em .85em;
+    height: auto;
+}
+
+/************ header mid ************/
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: last  baseline;
+    height: 77vh;
+}
+
+h1{
+    font-family: "helvetica";
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 9.5rem;
+}
+
+h1 span{
+    display: block;
+}
+
+h2{
+    font-family: "helvetica";
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2.2rem;
+    padding: 2rem 0;
+}
+
+.social{
+    background-color: none;
+    border: 1px solid #fff;
+    margin: 1rem 1rem 1rem 0; 
+    padding: 0;
+}
+
+.social-link{
+    display: block;
+}
+
+
+
+/************ main************/
+
+p{
+    margin-top: 10rem;
+}
